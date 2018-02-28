@@ -6,10 +6,10 @@ import cgi
 from pickle import dump,load
 import json,random,pickle
 import time,gzip
-from get_ip import IP
-import winsound
+#from get_ip import IP
+#import winsound
 from fake_useragent import UserAgent
-from  more_itertools import unique_everseen
+#from  more_itertools import unique_everseen
 
 class Games:
         def __init__(self):
@@ -120,7 +120,7 @@ class Games:
                 
                                 
 
-pags=range(100,150)
+pags=range(200,250)
 for i in pags:
         gm=Games()
         gm.scrape_data(i)
